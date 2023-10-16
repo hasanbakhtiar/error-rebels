@@ -1,0 +1,15 @@
+#main{
+    background-color: black ;
+}
+#main-one{
+    background-color: green;
+}
+p{
+    color: red;
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}

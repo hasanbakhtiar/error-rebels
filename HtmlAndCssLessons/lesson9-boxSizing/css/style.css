@@ -1,0 +1,33 @@
+/* div{ */
+    /* display: inline;
+    width: 100000px;
+    height: 3290000px;
+    background-color: #393e4a;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding: 40px 20px 30px 10px; */
+    /* border-color: red;
+    border-width: 10px;
+    border-style: dotted; */
+    /* border-bottom: 11px solid red; */
+    /* border-top: 11px solid red; */
+/* } */
+
+/* div h2{
+    display: inline;
+    color: red;
+    font-size: 28px;
+    font-family: sans-serif;
+} */
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+a{
+    display: block;
+}

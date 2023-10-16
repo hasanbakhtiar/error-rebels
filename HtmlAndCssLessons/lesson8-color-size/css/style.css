@@ -1,0 +1,27 @@
+
+/* hex +*/
+/* rgb + */
+/* rgba + */
+/* hsl */
+/* hwb */
+
+
+
+li{
+    
+    color: hwb(0 0% 0% / 0.1);
+    font-size: 40px;
+}
+
+
+
+
+/* 
+html{
+    font-size: 20px;
+}
+
+
+li{
+    font-size: 2rem;
+} */
