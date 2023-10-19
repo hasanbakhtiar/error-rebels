@@ -1,0 +1,26 @@
+main{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+    justify-content: space-around;
+
+    background-color: green;
+}
+
+main .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin: 5px; */
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a{
+    margin-top: 100px;
+}
