@@ -1,0 +1,54 @@
+/* .box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: firfira;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes firfira {
+  0% {
+    background-color: green;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+  }
+  25% {
+    left: 200px;
+    top: 0;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+    width: 300px;
+    height: 100px;
+
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+ 
+  }
+} */
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    clip-path: polygon(23% 18%, 34% 18%, 36% 63%, 24% 63%, 51% 53%, 19% 51%, 43% 46%, 34% 27%);
+}
