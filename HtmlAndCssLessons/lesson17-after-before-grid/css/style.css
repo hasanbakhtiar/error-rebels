@@ -1,0 +1,106 @@
+
+
+
+
+/* 
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 300px 400px;
+  background-color: #2196F3;
+  padding: 10px;
+  gap: 50px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+
+
+
+
+
+
+
+/* .box{
+  position: relative;
+  width: 100px;
+  height: 400px;
+  background-color: red;
+}
+.box::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+   left: 100px; 
+  width: 0px;
+  height: 400px;
+  background-color: black;
+  transition: 1s;
+}
+
+.box:hover::after{
+  width: 100px;
+}  */
+
+
+
+/* main{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orbit-one{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  animation: firfira 5s infinite linear;
+}
+@keyframes firfira {
+    0%{
+      transform:rotate(360deg) ;
+    }
+}
+
+.orbit-one .planet-one{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+
+}
+
+
+.orbit-two{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  animation: firfira 3s infinite linear;
+}
+@keyframes firfira {
+    0%{
+      transform:rotate(360deg) ;
+    }
+}
+
+.orbit-two .planet-two{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+
+} */
