@@ -1,0 +1,16 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+.hero{
+    background-image: url('../img/hero-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.input-group{
+    width: 50% !important;
+}
+.input-group input{
+background:none ;
+}
+.card{
+    border: none;
+}
