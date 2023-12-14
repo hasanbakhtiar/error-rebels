@@ -1,0 +1,15 @@
+.red{
+    background-color: red;
+    color: #fff;
+    font-size: 50px;
+    border: 20px solid #000;
+    border-radius: 20px;
+}
+
+.green{
+    background-color: green;
+    color: #fff;
+    font-size: 30px;
+    border: 10px solid #000;
+    border-radius: 100px;
+}
