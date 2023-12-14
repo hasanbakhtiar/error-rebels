@@ -1,12 +1,40 @@
+document.querySelector('#nav-btn').onclick=()=>{
+if (document.querySelector('nav').className === "hide") {
+    document.querySelector('nav').className = "show";
+}else{
+    document.querySelector('nav').className = "hide";
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // console.log(document);
 // text.innerText = "<h1>Hello</h1>";
 
 
-const text = document.querySelectorAll('p');
+// const text = document.querySelectorAll('p');
 
 
 
-document.querySelector('button').onclick=()=>{
+// document.querySelector('button').onclick=()=>{
 
 
 
@@ -38,7 +66,7 @@ document.querySelector('button').onclick=()=>{
     // }else{
     //     text.attributes[0].value = "red";
     // }
-}
+// }
 
 
 
