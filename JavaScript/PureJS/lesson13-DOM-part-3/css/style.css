@@ -1,0 +1,49 @@
+.light header{
+    background-color: antiquewhite;
+}
+.dark header {
+    background-color: black;
+}
+
+
+
+.light section{
+    background-color: red;
+}
+.dark section {
+    background-color: green;
+}
+
+.light footer{
+    background-color: red;
+}
+.dark footer {
+    background-color: green;
+}
+
+header{
+    width: 100px;
+    height: 100px;
+
+}
+
+section{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* header{
+    width: 100px;
+    height: 100px;
+}
+
+
+.light header{
+background-color: white;
+}
+
+.dark header{
+
+    background-color: darkblue;
+} */
