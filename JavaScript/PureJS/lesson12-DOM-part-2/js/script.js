@@ -1,10 +1,10 @@
-document.querySelector('#nav-btn').onclick=()=>{
-if (document.querySelector('nav').className === "hide") {
-    document.querySelector('nav').className = "show";
-}else{
-    document.querySelector('nav').className = "hide";
-}
-}
+// document.querySelector('#nav-btn').onclick=()=>{
+// if (document.querySelector('nav').className === "hide") {
+//     document.querySelector('nav').className = "show";
+// }else{
+//     document.querySelector('nav').className = "hide";
+// }
+// }
 
 
 

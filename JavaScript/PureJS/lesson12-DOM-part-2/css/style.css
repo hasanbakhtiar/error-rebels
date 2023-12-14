@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
+/* 
 nav{
     transition: 1s;
     width: 30%;
@@ -63,7 +63,7 @@ nav menu ul li a{
     transform: translateX(-1000px);
     transition: 1s;
 }
-
+ */
 
 
 
