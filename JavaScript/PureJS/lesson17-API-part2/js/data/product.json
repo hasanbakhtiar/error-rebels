@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "title":"Samsung",
+        "price":100
+    },
+    {
+        "id":2,
+        "title":"Xiaomi"
+    },
+    {
+        "id":3,
+        "title":"Motorolla"
+    }
+]
