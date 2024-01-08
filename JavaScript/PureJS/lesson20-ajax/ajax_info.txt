@@ -1,0 +1,9 @@
+Welcome to the JavaScriptTutorial.net website! This JavaScript Tutorial helps you learn the JavaScript programming language from scratch quickly and effectively.
+
+JavaScript Tutorial
+If you find yourself in any of the following situations:
+
+Unsure about where to start learning JavaScript.
+Tired of simply copying and pasting JavaScript code without really understanding how it works.
+Feel stuck to add richer and more compelling features to your websites and web applications because you don’t know how to get much out of JavaScript.
+JavaScriptTutorial.net is a good place to start.
