@@ -1,0 +1,14 @@
+.photo-con{
+    height: 300px;
+}
+.photo-con .two-photo{
+    transform: translateY(-300px);
+    transition: .5s;
+}
+.card:hover .two-photo{
+    opacity: 0;
+}
+
+.card:hover .one-photo{
+    opacity: 1;
+}
