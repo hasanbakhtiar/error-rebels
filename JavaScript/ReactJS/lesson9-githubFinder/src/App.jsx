@@ -6,16 +6,15 @@ import axios from "axios"
 
 const App = () => {
   const [users,setUsers] = useState([]);
-  useEffect(()=>{
-    axios.get('https://api.github.com/users')
-    .then(res=>setUsers(res.data))
-  },[])
-  
+ const searchValue = (keyword)=>{
+    axios.get(`https://api.github.com/search/users?q=${keyword}`)
+    .then(res=>setUsers(res.data.items))
+  };
   return (
     <div>
       <Header/>
       <div className="container">
-      <Search/>
+      <Search comingkeyword = {searchValue} />
       <Users alldata={users}/>
       </div>
     </div>
