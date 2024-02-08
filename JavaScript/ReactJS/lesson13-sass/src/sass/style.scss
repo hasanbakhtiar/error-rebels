@@ -1,0 +1,32 @@
+@import 'mycombo';
+
+$myyasil : #0ff26262;
+
+
+$test:false;
+.con{
+    width: 200px;
+    height: 200px;
+    background-color: $myyasil;
+    @include ortalamaq();
+    .box-one{
+        width: 100px;
+        height: 100px;
+        @if($test){
+background-color: green;
+        }
+        @else{
+            background-color: red;
+        }
+
+    }
+}
+
+
+$base-color: #036;
+
+@for $i from 1 through 12 {
+  li:nth-child( #{$i}) {
+    background-color: darken($base-color, $i * 5%);
+  }
+}
