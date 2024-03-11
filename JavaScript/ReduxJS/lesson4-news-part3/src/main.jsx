@@ -6,6 +6,7 @@ import App from './App'
 import store from './tools/store/configureStore';
 import { addNews } from './tools/action/newsAction';
 import { Provider } from 'react-redux';
+import { LangProvider } from './context/LangContext';
 const newstore = store();
 
 newstore.dispatch(addNews({ cTitle: "React Labs: What We've Been Working On – February 2024 ", cImg: "https://s3.ap-south-1.amazonaws.com/stage.radixweb.com/React_18_New_features_a9ebb05f34.jpg", cDesc: "In React Labs posts, we write about projects in active research and development. We’ve made significant progress since our last update, and we’d like to share our progress." }))
@@ -18,8 +19,10 @@ newstore.dispatch(addNews({ cTitle: "React Canaries: Enabling Incremental Featur
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Provider store={newstore}>
-      <App />
-    </Provider>
+    <LangProvider>
+      <Provider store={newstore}>
+        <App />
+      </Provider>
+    </LangProvider>
   </React.StrictMode>,
 )

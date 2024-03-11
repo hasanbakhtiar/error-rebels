@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { LangContext } from '../context/LangContext'
 
 
 const Header = () => {
+  const [lang,setLang]= useContext(LangContext);
   return (
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container">
@@ -23,6 +25,9 @@ const Header = () => {
 
       <div>
         <Link className='btn btn-dark' to="/dashboard">Dashboard</Link>
+        <button className='btn btn-warning ms-3' onClick={()=>{
+          lang==='AZ'?setLang("EN"):setLang("AZ");
+        }}>{lang}</button>
       </div>
     
     </div>

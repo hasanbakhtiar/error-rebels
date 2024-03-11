@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import slugify from 'react-slugify'
 
-const SingleCard = ({photo,title,desc}) => {
+const SingleCard = ({photo,title,desc,id}) => {
     return (
         <div className="col-12 col-sm-6 col-md-4">
             <div className="card">
@@ -8,7 +10,7 @@ const SingleCard = ({photo,title,desc}) => {
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text">{desc.slice(0,100)}...</p>
-                    <a href="#" className="btn btn-primary">Read more</a>
+                    <Link to={`/news/${slugify(title)}`} className="btn btn-primary">Read more</Link>
                 </div>
             </div>
 
