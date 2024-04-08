@@ -17,7 +17,7 @@ const todoSlice = createSlice({
     initialState,
     reducers:{
         add:(state,action:PayloadAction<string>)=>{
-            const newTodo:any = {id:uuidv4npm i --save-dev @types/uuid(),text:action.payload}
+            const newTodo:any = {id:uuidv4,text:action.payload}
             state.push(newTodo)
         }
     }
