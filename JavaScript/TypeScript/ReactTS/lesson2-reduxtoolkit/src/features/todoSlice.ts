@@ -4,12 +4,7 @@ type todoType={
     id:string,
     text:string
 }
-const initialState:todoType[] = [
-    {
-        id:"1",
-        text:"test"
-    }
-];
+const initialState:todoType[] = [];
 
 
 const todoSlice = createSlice({
@@ -17,11 +12,14 @@ const todoSlice = createSlice({
     initialState,
     reducers:{
         add:(state,action:PayloadAction<string>)=>{
-            const newTodo:any = {id:uuidv4,text:action.payload}
+            const newTodo:any = {id:uuidv4(),text:action.payload}
             state.push(newTodo)
+        },
+        remove:(state,action:PayloadAction<string>)=>{
+            return state.filter(item=>item.id !== action.payload);
         }
     }
 })
 
 export default todoSlice.reducer;
-export const {add} = todoSlice.actions
+export const {add,remove} = todoSlice.actions

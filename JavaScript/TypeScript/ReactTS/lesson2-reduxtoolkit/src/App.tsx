@@ -1,6 +1,6 @@
 import React, {  useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { add } from "./features/todoSlice";
+import { add, remove } from "./features/todoSlice";
 
 const App: React.FC = () => {
   const [list,setList] = useState<string>("");
@@ -8,7 +8,12 @@ const App: React.FC = () => {
 const dispatch = useDispatch();
   const todoSubmit =(e:React.FormEvent)=>{
     e.preventDefault();
+  if (!list) {
+    alert('')
+  }else{
     dispatch(add(list));
+    setList("");
+  }
     
   }
   return (
@@ -19,7 +24,7 @@ const dispatch = useDispatch();
             <input
               type="text"
               className="form-control"
-            
+              value={list}
               onChange={(e)=>{setList(e.target.value)}}
             />
             <button
@@ -32,7 +37,9 @@ const dispatch = useDispatch();
           </form>
           <ul className="list-group">
             {data.map((item:any)=>(
-              <li className="list-group-item d-flex align-items-center justify-content-between" key={item.id}>{item.text}<button className="btn btn-danger">Del</button></li>
+              <li className="list-group-item d-flex align-items-center justify-content-between" key={item.id}>{item.text}<button className="btn btn-danger" onClick={()=>{
+                dispatch(remove(item.id))
+              }}>Del</button></li>
             ))}
           </ul>
         </div>
